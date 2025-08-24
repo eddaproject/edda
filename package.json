@@ -1,0 +1,23 @@
+{
+  "name": "edda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Software Testing", "LLM", "NLP", "NER"],
+  "authors": [
+    "Gabriel Borges",
+    "Gabriel Lins"
+  ],
+  "license": "MIT",
+  "packageManager": "pnpm@10.14.0",
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "eslint": "^9.34.0",
+    "nodemon": "^3.1.10",
+    "tsx": "^4.20.5"
+  }
+}
