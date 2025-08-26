@@ -142,3 +142,4 @@ vite.config.ts.timestamp-*
 .github/prompts
 
 docs/*.pdf
+docs/HIPOTHESIS.md
