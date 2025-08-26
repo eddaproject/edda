@@ -1,23 +1,58 @@
 {
   "name": "edda",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A language-agnostic subjective testing framework with modular architecture for flexible test creation, execution, and reporting",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "start": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "pnpm -r build",
+    "clean": "pnpm -r clean",
+    "dev": "pnpm -r --parallel dev",
+    "test": "pnpm -r test",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "type-check": "pnpm -r type-check",
+    "start:cli": "pnpm --filter @edda/cli start",
+    "prepare": "pnpm build"
   },
-  "keywords": ["Software Testing", "LLM", "NLP", "NER"],
+  "keywords": [
+    "testing-framework",
+    "subjective-testing",
+    "language-agnostic",
+    "nlp",
+    "ner",
+    "llm",
+    "modular-testing",
+    "typescript",
+    "monorepo"
+  ],
   "authors": [
     "Gabriel Borges",
     "Gabriel Lins"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eddaproject/edda.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eddaproject/edda/issues"
+  },
+  "homepage": "https://github.com/eddaproject/edda#readme",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=9.0.0"
+  },
   "packageManager": "pnpm@10.14.0",
   "devDependencies": {
+    "@eslint/js": "^9.34.0",
     "@types/node": "^24.3.0",
     "eslint": "^9.34.0",
+    "globals": "^16.3.0",
     "nodemon": "^3.1.10",
-    "tsx": "^4.20.5"
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.41.0"
   }
 }

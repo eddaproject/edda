@@ -1,0 +1,16 @@
+{
+  "name": "@edda/adapters",
+  "version": "1.0.0",
+  "description": "Adapters for edda",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "rm -rf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "authors": ["Gabriel Borges", "Gabriel Lins"],
+  "license": "MIT",
+  "packageManager": "pnpm@10.14.0"
+}
