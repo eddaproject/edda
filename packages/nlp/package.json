@@ -2,6 +2,7 @@
   "name": "@edda/nlp",
   "version": "1.0.0",
   "description": "NLP utilities for edda",
+  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
